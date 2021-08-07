@@ -1,0 +1,155 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>黄埔店</title>
+<link rel="stylesheet" href="../css/mystyle.css" type="text/css">
+</head>
+
+<script type="text/javascript">
+	window.onload = function(){
+		var scArray=["images/dish/Sichuan_dish/fqfp.jpg","images/dish/Sichuan_dish/hgr.jpg","images/dish/Sichuan_dish/ksbc.jpg","images/dish/Sichuan_dish/mpdf.jpg","images/dish/Sichuan_dish/tby.jpg","images/dish/Sichuan_dish/yxrs.jpg"];
+		var xcArray=["images/dish/Hunan_dish/dazj.jpg","images/dish/Hunan_dish/bwbj.jpg","images/dish/Hunan_dish/djyt.jpg","images/dish/Hunan_dish/lwhz.jpg","images/dish/Hunan_dish/yzxy.jpg","images/dish/Hunan_dish/zayc.jpg"];
+		var shucArray=["images/dish/Jiangsu_dish/jpg.jpg","images/dish/Jiangsu_dish/ysy.jpg","images/dish/Jiangsu_dish/pqdf.jpg","images/dish/Jiangsu_dish/qgry.jpg","images/dish/Jiangsu_dish/ssgy.jpg","images/dish/Jiangsu_dish/yxfst.jpg"]
+		var scObj = document.getElementById("chuancai");
+		var xcObj = document.getElementById("xiangcai");
+		var shucObj = document.getElementById("sucai");
+		var i = 0;
+	
+		var timer = setInterval(changeImage,1500);
+		
+		function changeImage(){
+			scObj.src=scArray[i];
+			xcObj.src=xcArray[i];
+			shucObj.src=shucArray[i];
+			i++;
+			i = i % scArray.length;
+		}
+	}
+</script>
+
+
+
+<body bgcolor="#f90">
+	<div id="container">
+    	<div id="top">
+    <table border="0" cellpadding="0" cellspacing="0">
+    	 <tr>
+    <td width="219" height="162" rowspan="5" valign="top" bgcolor="#FF9900"><img src="../images/index_02.gif" width="219" height="162" border="0"/></td>
+    <td width="262" height="59" bgcolor="#FF9900">&nbsp;</td>
+    <td width="303" bgcolor="#FF9900">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="262" height="14" valign="top" bgcolor="#FF9900"><img src="../images/index_16.gif" width="262" height="14" /></td>
+    <td width="303" height="71" rowspan="3" valign="top" bgcolor="#FF9900"><img src="../images/index_17.gif" width="303" height="71" /></td>
+  </tr>
+  <tr>
+    <td height="45" valign="bottom" bgcolor="#FCDD80"><img src="../images/brand.png" width="260" height="45" /></td>
+  </tr>
+  <tr>
+    <td height="12" valign="bottom" bgcolor="#FF9900"><img src="../images/index_20.gif" width="262" height="12" /></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="left" valign="top" bgcolor="#FFFFFF"><table width="565" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="541" valign="top"><table width="530" border="2" cellpadding="0" cellspacing="0" style="border-color:#ffcc33;">
+          <tr >
+            <td height="15"><table width="530" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td align="center" bgcolor="#FF3300" >
+					<a id="link"></a>
+                	<ul class="menu_one">
+                	 <li><a href="../index.html" class="link_a">首页</a></li>
+                	 <li><a href="shop_information.html" class="link_a">餐厅门店</a></li>
+                	 <li><a href="../food/food_index.html" class="link_a">主要美食</a></li>
+                	 <li><a href="../food/drink_index.html" class="link_a">特色饮品</a></li>
+                	 <li><a href="../other/recommend.html" class="link_a">最新推荐</a></li>
+                	 <li><a class="link_a">联系我们</a>
+                	 <ul class="menu_two">
+                	  <li><a href="../other/registe.html" class="link_a">会员注册</ a></li>
+                	  <li><a href="../feedback/feedback.html" class="link_a">问题反馈</ a></li>
+                	 </ul>
+                	 </li>
+                	</ul>
+                </td>
+              </tr>
+            </table></td>
+          </tr>
+        </table></td>
+        <td align="right"><img src="../images/index100.png" width="25" height="33" /></td>
+      </tr>
+    </table></td>
+        </tr>
+        </table>
+</div>
+
+	<div id="main">
+		<form action="" method="post">
+			<table width="744" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td background="../images/index_33.gif" height="13" width="700"></td>
+					
+				</tr>
+				<tr>
+					<td valign="cneter" align="center">
+						<div class="title_div">
+							黄浦总店
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<table border="0" cellspacing="0" cellpadding="0" width="700">
+							<tr height="40" valign="center">
+								<td width="350" align="left"><b>地址详情：南京东路（六合路口）22号</b></td>
+								<td align="right">
+									<a href="shop_huangpu.html"><input type="button" value="返回"/></a>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr height="600">
+					<td valign="center" height="70" align="center">
+						<img src="images/map3_1.JPG" alt="" width="700" height="500">
+					</td>
+				</tr>
+				<tr>
+					<td background="../images/index_33.gif" height="13"></td>
+				</tr>
+			</table>
+			
+		</form>
+	</div>
+    <div id="foot">
+		<table border="0" cellspacing="0" cellpadding="0" width="764" align="top">
+			<tr>
+				<td align="center">
+					<table border="0" cellspacing="0" cellpadding="0" width="500">
+						<tr align="center">
+							<td><a href="../other/registe.html" class="link_foot">免费注册</a></td>
+							<td>|</td>
+							<td><a href="../other/description.html" class="link_foot">关于我们</a></td>
+							<td>|</td>
+							<td><a class="link_foot">诚聘英才</a></td>
+							<td>|</td>
+							<td><a href="#link" class="link_foot">网站导航</a></td>
+							
+						</tr>
+						<tr>
+							<td class="link_foot" colspan="11" align="center">
+								Copyright© 2021,naruto.cn, all rights reserved
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</div>
+
+    </div>
+	
+    
+
+</body>
+</html>

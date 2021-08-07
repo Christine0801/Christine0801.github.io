@@ -1,0 +1,248 @@
+	#container{
+		width:784px;
+		margin:auto;
+	}
+	#top{
+		width:784px;
+		height:	162px;
+		margin:0,auto;
+	}
+	#main{
+		width:764px;
+		height:auto;
+		margin-top:20px;
+		border-radius:10px;
+		background-color:white;
+		padding:10px;
+	}
+	#foot{
+		width:784px;
+		height:100px;
+		margin:30px auto;	
+	}
+	.top_link{
+		font:"宋体";
+		font-size:12px;
+		color:white;
+	}
+	.top_link:link{
+		font:"宋体";
+		font-size:12px;
+		color:white;
+	}
+	.top_link:hover{
+		font:"宋体";
+		font-size:12px;
+		color:#FF9900}
+		
+	.registe_border{
+		border-right:1px solid #f90;
+		}
+		
+	.registe_border_right{
+		border-right:1px solid #f90;
+		border-left:1px solid #f90;
+		}
+	
+	.registe_text{
+		width:80px;
+		height:15px;
+		
+	}
+	.textarea_dash{
+		border:solid 1px;
+		width:400px;
+		height:200px;
+	}
+	.duanluo{
+		font-size: 12px;
+		font-family: 宋体;
+		line-height: 30px;
+	}
+	.border_dshsed{
+		border-bottom:1px dashed #FF9900;
+	}
+	.link{
+		color: black;
+		text-decoration: none;
+	}
+	.link:link{
+		color: black;
+	}
+	.link:hover{
+		color: #FF9900;
+	}
+	
+	.link_dh{
+		color: white;
+		text-decoration: none;
+	}
+	.link_dh:link{
+		color: white;
+	}
+	.link_dh:hover{
+		color: #FF9900;
+	}
+	.border_buttom_solid{
+		border-bottom: 1px solid #FF9900;
+	}
+	.major_font{
+		font-size: 12px;
+	}
+	.other_shop{
+		width: 100px;
+		height: 30px;
+		background-color: #FF9900;
+		color: #FFFFFF;
+		padding-top: 10px;
+	}
+	.title_div{
+		width: 300px;
+		height: 50px;
+		background-color: bisque;
+		color: #F90;
+		font-family: 隶书;
+		font-size: 30px;
+		padding-top: 10px;
+		margin-top: 10px;
+	}
+	.dish_maintitle{
+		font-family: 隶书;
+		font-size: 30px;
+		letter-spacing: 40px;
+		color: #FF9900;
+	}
+	.dish_title{
+		font-family: 楷体;
+		font-size: 20px;
+		letter-spacing: 20px;
+	}
+	.dish_img{
+		width: 140px;
+		height: 100px;
+	}
+	.dish_img:hover{
+		margin-left:-490px;
+		margin-bottom: -340px;
+		width: 600px;
+		height: 400px;
+		transition: all 0.6s;
+		transform: scale(1.1);
+	}
+	.link_foot{
+		text-decoration: none;
+		color: grey;
+	}
+	.link_foot:link{
+		color: white;
+	}
+	.link_foot:hover{
+		color: white;
+	}
+	.dish_img_china{
+		width: 100px;
+		height: 80px;
+	}
+	.dish_img_china:hover{
+		transform: scale(1.2);
+		transition: all 1;
+	}
+	*{
+				margin: 0;
+				padding: 0;
+				cursor: default;
+	}
+	.menu_one{
+				list-style: none;
+	}
+	.menu_one>li{
+				color: white;
+				font-size: 12px;
+				width: 80px;
+				height: 15px;
+				text-align: center;
+				float: left;
+	}
+	.menu_one>li:hover{
+				width: 80px;
+				height: 15px;
+				text-align: center;
+				float: left;
+				background-color: #d33b0d;
+				
+				transform: scale(1.1);
+	}
+	.menu_two>li{
+				height: 0;
+				background-color: #FF3300;
+				overflow: hidden;
+				margin-bottom: 3px;
+				transition: 0.3s;
+	}
+	.menu_one>li:hover .menu_two>li{
+			   line-height: 20px;
+				height: 20px;
+				background-color: #FF3300;
+				
+	}
+	.menu_one>li:hover .menu_two>li:hover{
+			   line-height: 20px;
+				height: 20px;
+				background-color: #d33b0d;
+					transform: scale(1.1);
+			}
+	.link_a{
+			   display:block; 
+			   color: white;
+			   text-decoration: none;
+	}
+	.suggess{
+		width: 300px;
+		height: 200px;
+		
+	}
+	.recommend_font_new{
+		color: #FF9900;
+		font-family: 楷体;
+		
+	}
+	.recommend_duanluo{
+		font-size: 12px;
+		text-indent: 24px;
+		font-family: 楷体;
+		
+	}
+	.border_buttom_dash{
+		border-bottom: 1px dashed #FF9900;
+	}
+	.join_title{
+		color: #FF9900;
+		font-size: 48px;
+		font-family: 楷体;
+	}
+	.join_select{
+		font-size: 12px;
+		font-family: 宋体;
+		width: 120px;
+		height: 30px;
+	}
+	.join_search_button{
+		width: 60px;
+		height: 30px;
+		color: white;
+		text-align: center;
+		background-color: #FF9900;
+		border: 0;
+	}
+	.join_search_text{
+		width: 120px;
+		height: 27px;
+	}
+	.join_font_red_search{
+		color: #FF9900;
+		font-size: 20px;
+		
+		
+	}
+	
+	 
